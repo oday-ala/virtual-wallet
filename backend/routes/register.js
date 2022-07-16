@@ -10,8 +10,8 @@ const nodemailer = require("nodemailer");
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "virtualwallet2022@gmail.com",
-    pass: "meurxnoehdfnnbii",
+    user: EMAIL,
+    pass: PASSWORD,
   },
   tls: {
     rejectUnauthorized: false,
