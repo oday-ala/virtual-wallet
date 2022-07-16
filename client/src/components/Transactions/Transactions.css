@@ -1,0 +1,35 @@
+.transactions {
+  margin-top: 20PX;
+    flex: 4;
+    padding-bottom: 94px;
+  margin-top: 68px;
+
+  }
+  
+  .transactionsUser {
+    display: flex;
+    align-items: center;
+  }
+  
+  .transactionsImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .transactionsEdit{
+      border: none;
+      border-radius: 10px;
+      padding: 5px 10px;
+      background-color: #3bb077;
+      color: white;
+      cursor: pointer;
+      margin-right: 20px;
+  }
+  
+  .transactionsDelete{
+      color: red;
+      cursor: pointer;
+  }
