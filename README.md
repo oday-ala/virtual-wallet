@@ -4,7 +4,7 @@
 
 ### Features:
 
-- Withdrawal.
+- Offers.
 - Transactions.
 - Earn Super Coins when Clicking on an Ad.
 - Adding Credit Card.
