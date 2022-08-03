@@ -1,0 +1,53 @@
+.withdrawal {
+  flex: 4;
+  justify-content: center;
+  margin: 20px;
+  padding-bottom: -3px;
+  margin-top: 78px;
+  margin-right: 30px
+
+}
+
+.withdrawalForm {
+  margin-top: 10px;
+}
+
+.withdrawalItem {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  
+}
+.withdrawalTitle {
+  font-weight: bold;
+  font-size: 30px;
+  color: #36454f;
+  cursor: pointer;
+}
+
+.withdrawalItem > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.withdrawalItem > input {
+  padding: 10px;
+}
+
+.withdrawalItem > select {
+  padding: 10px;
+}
+
+.withdrawalButton {
+  margin-top: 10px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #36454f;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  cursor: pointer;
+}

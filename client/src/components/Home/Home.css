@@ -1,0 +1,15 @@
+.home{
+    flex: 4;
+    width: 100%;
+  margin-top: 88px;
+
+}
+
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+}
+.secondPart {
+    width: inherit;
+    padding-bottom: 90px;
+}

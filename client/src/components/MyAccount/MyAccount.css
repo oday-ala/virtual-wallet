@@ -1,0 +1,153 @@
+.myAccount {
+  flex: 4;
+  padding: 20px;
+position:sticky;
+padding-bottom: 216px;
+margin-top: 40px;
+
+}
+
+.myAccountTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.myAccountContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.myAccountShow {
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.myAccountUpdate {
+  flex: 2;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 20px;
+  margin-right: 91px;
+}
+
+.myAccountShowTop {
+  display: flex;
+  align-items: center;
+}
+
+.myAccountShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.myAccountShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+
+.myAccountShowUsername {
+  font-weight: 600;
+}
+
+.myAccountShowUserTitle {
+  font-weight: 300;
+}
+
+.myAccountShowBottom{
+    margin-top: 20px;
+}
+
+.myAccountShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+
+.myAccountShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+
+.myAccountShowIcon{
+    font-size: 16px !important;
+}
+
+.myAccountShowInfoTitle{
+    margin-left: 10px;
+}
+
+.myAccountUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.myAccountUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.myAccountUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.myAccountUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.myAccountUpdateInput{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.myAccountUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.myAccountUpdateUpload{
+  top: 500%;
+    display: flex;
+    align-items: center;
+}
+
+.myAccountUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.myAccountUpdateIcon{
+    cursor: pointer;
+}
+
+.myAccountUpdateButton{
+    border-radius: 5px;
+    top:500%;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #36454f;
+    color: white;
+    font-weight: 600;
+}

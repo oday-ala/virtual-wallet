@@ -1,0 +1,15 @@
+
+.cardPage {
+    flex: 4;
+    justify-content: center;
+    margin: 20px;
+    padding-bottom: 278px;
+  margin-top: 68px;
+
+  }
+.acard{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    
+}
